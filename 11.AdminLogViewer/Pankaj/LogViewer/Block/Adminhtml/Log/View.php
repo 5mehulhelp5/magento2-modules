@@ -1,4 +1,9 @@
 <?php
+/**
+ * Copyright © Pankaj Sharma. All rights reserved.
+ */
+declare(strict_types=1);
+
 namespace Pankaj\LogViewer\Block\Adminhtml\Log;
 
 use Magento\Backend\Block\Template;
@@ -12,8 +17,6 @@ use Magento\Framework\Registry;
 class View extends Template
 {
     /**
-     * Core registry
-     *
      * @var Registry
      */
     protected $_coreRegistry;

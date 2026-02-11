@@ -1,4 +1,9 @@
 <?php
+/**
+ * Copyright © Pankaj Sharma. All rights reserved.
+ */
+declare(strict_types=1);
+
 namespace Pankaj\LogViewer\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
@@ -13,7 +18,7 @@ class Data extends AbstractHelper
     /**
      * Configuration path prefix
      */
-    const XML_PATH_LOGVIEWER = 'logviewer/general/';
+    private const XML_PATH_LOGVIEWER = 'logviewer/general/';
 
     /**
      * Get system configuration value

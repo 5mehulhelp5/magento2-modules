@@ -1,11 +1,9 @@
 <?php
 /**
- * Pankaj_LogViewer Extension
- *
- * @category  Pankaj
- * @package   Pankaj_LogViewer
- * @author    Pankaj Sharma
+ * Copyright © Pankaj Sharma. All rights reserved.
  */
+declare(strict_types=1);
+
 namespace Pankaj\LogViewer\Ui\Component\Listing\Column;
 
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
@@ -22,7 +20,7 @@ class ViewAction extends Column
     /**
      * URL route for the log view controller
      */
-    const URL_PATH_VIEW = 'logviewer/log/view';
+    protected const URL_PATH_VIEW = 'logviewer/log/view';
 
     /**
      * @var UrlInterface
